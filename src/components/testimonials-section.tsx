@@ -3,10 +3,11 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { Check, ChevronDown, ThumbsUp } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { type UIEvent, useEffect, useRef, useState } from "react";
 import { testimonials } from "@/content/testimonials";
 import { AnimatedArrow } from "@/components/animated-arrow";
 import { Button } from "@/components/button";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { SectionCard } from "@/components/section-card";
 import { SectionHeading } from "@/components/section-heading";
 import { SectionShell } from "@/components/section-shell";
@@ -43,11 +44,31 @@ function PersonAvatar({ type }: { type: "male" | "female" }) {
 export function TestimonialsSection() {
   const prefersReducedMotion = useReducedMotion();
   const t = useTranslations("Testimonials");
+  const isMobile = useMediaQuery("(max-width: 767px)");
+  const loadLockRef = useRef(false);
   const [visibleCount, setVisibleCount] = useState(3);
   const visibleTestimonials = testimonials.slice(0, visibleCount);
 
   const handleShowMore = () => {
     setVisibleCount((count) => Math.min(count + 3, testimonials.length));
+  };
+
+  useEffect(() => {
+    loadLockRef.current = false;
+  }, [visibleCount]);
+
+  const handleMobileSwipeLoad = (event: UIEvent<HTMLDivElement>) => {
+    if (!isMobile || visibleCount >= testimonials.length || loadLockRef.current) {
+      return;
+    }
+
+    const target = event.currentTarget;
+    const remaining = target.scrollWidth - target.scrollLeft - target.clientWidth;
+
+    if (remaining < 120) {
+      loadLockRef.current = true;
+      handleShowMore();
+    }
   };
 
   return (
@@ -74,7 +95,10 @@ export function TestimonialsSection() {
         duration={0.45}
       />
 
-      <div className="-mx-6 overflow-x-auto px-6 py-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:-mx-10 sm:px-10 md:mx-0 md:overflow-visible md:px-0">
+      <div
+        className="-mx-6 overflow-x-auto px-6 py-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:-mx-10 sm:px-10 md:mx-0 md:overflow-visible md:px-0"
+        onScroll={handleMobileSwipeLoad}
+      >
         <div className="flex snap-x snap-mandatory gap-4 pb-2 md:grid md:grid-cols-3 md:gap-5 md:pb-0">
           {visibleTestimonials.map((item, index) => (
             <SectionCard
@@ -155,8 +179,8 @@ export function TestimonialsSection() {
         </div>
       </div>
 
-      {visibleCount < testimonials.length ? (
-        <div className="mt-8 flex justify-center">
+      {!isMobile && visibleCount < testimonials.length ? (
+        <div className="mt-8 hidden justify-center md:flex">
           <Button
             onClick={handleShowMore}
             variant="primary"
