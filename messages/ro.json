@@ -17,51 +17,227 @@
     }
   },
   "Hero": {
-    "headline": "Măiestria tehnologică modelată de expertiza europeană și proximitatea nearshore.",
-    "subheadline": "Software enterprise personalizat, conceput cu claritate, asumare și echilibru, pentru a susține procese complexe și creștere pe termen lung.",
+    "headline": "Expertiză tehnologică susținută de experiență europeană și proximitate nearshore.",
+    "subheadline": "Software enterprise personalizat, construit cu claritate, asumare și echilibru pentru procese complexe și creștere pe termen lung.",
     "primaryCta": "Începe o conversație",
     "secondaryCta": "Descoperă povestea noastră"
   },
   "Story": {
     "eyebrow": "Povestea din spatele dotWhite",
     "title": "Punctul. Pauza. Potențialul.",
-    "intro": "dotWhite pornește de la o idee simplă: orice sistem complex poate deveni clar atunci când oamenii potriviți pun întrebările potrivite la momentul potrivit.",
+    "intro": "dotWhite pornește de la o idee simplă: sistemele complexe devin clare când oamenii potriviți pun întrebările potrivite la momentul potrivit.",
     "cards": {
       "origin": {
         "title": "De la punct la direcție",
-        "text": "Un punct este începutul. Marchează o poziție, apoi un traseu. Așa lucrăm și noi: câte o decizie clară, pe rând."
+        "text": "Un punct este începutul. Marchează o poziție, apoi un traseu. Așa lucrăm și noi: decizii clare, pas cu pas.",
+        "details": "Mapăm contextul, constrângerile și intenția de business înainte de a scrie primul ticket de implementare.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Roadmap",
+          "three": "Decizii"
+        }
       },
       "enterprise": {
         "title": "Construit pentru complexitate reală",
-        "text": "Construim software enterprise personalizat și instrumente interne care gestionează fluxuri în evoluție, volume mari de date și integrări."
+        "text": "Construim software enterprise personalizat și instrumente interne pentru fluxuri în evoluție, volume mari și integrări.",
+        "details": "Arhitectura rămâne modulară și trasabilă, astfel încât echipele să evolueze sigur fără rescrieri costisitoare.",
+        "badges": {
+          "one": "Scalabil",
+          "two": "Integrări",
+          "three": "Guvernanță"
+        }
       },
       "feeling": {
         "title": "Calm prin design",
-        "text": "Produsele noastre trebuie să se simtă intenționate și stabile: minimale, precise și niciodată zgomotoase."
+        "text": "Produsele noastre trebuie să fie intenționate și stabile: minimale, precise, niciodată zgomotoase.",
+        "details": "Calitatea interacțiunii este tratată ca cerință de produs, nu doar ca un strat vizual final.",
+        "badges": {
+          "one": "Flux UX",
+          "two": "Predictibil",
+          "three": "UI calm"
+        }
       },
       "client": {
         "title": "Cum ar trebui să se simtă",
-        "text": "Colaborarea cu dotWhite trebuie să fie ghidată și de încredere, cu complexitatea gestionată discret în fundal."
+        "text": "Colaborarea cu dotWhite trebuie să fie clară și de încredere, cu complexitatea gestionată discret în fundal.",
+        "details": "Livrarea este transparentă și calmă, cu checkpoint-uri, asumare și progres măsurabil.",
+        "badges": {
+          "one": "Parteneriat",
+          "two": "Vizibilitate",
+          "three": "Fiabilitate"
+        }
       }
     },
     "enterprise": "Construim software enterprise personalizat și instrumente interne pentru fluxuri cu volum mare, integrate cu platforme precum SharePoint, Salesforce și SAP.",
-    "outro": "Colaborarea cu dotWhite trebuie să se simtă calmă, stabilă și intenționată, cu complexitatea gestionată discret în fundal."
+    "outro": "Colaborarea cu dotWhite trebuie să fie calmă, stabilă și intenționată, cu complexitatea gestionată discret în fundal."
   },
   "CoreValues": {
     "pretitle": "Valorile noastre de bază",
     "title": "Principiile din spatele fiecărei livrări",
-    "subtitle": "Valorile noastre nu descriu o stare de liniște utopică, ci descriu fidel provocările și dificultățile pe care ne străduim să le depășim zilnic pentru a oferi servicii de înaltă calitate și pentru a menține un echilibru sănătos între viața profesională și cea personală.",
+    "subtitle": "Valorile noastre descriu provocările pe care le depășim zilnic pentru a livra servicii de calitate și a păstra un echilibru sănătos între muncă și viața personală.",
     "clarity": {
-      "title": "Creează Claritate",
-      "text": "Transformăm ambiguitatea în înțelegere. Claritatea înseamnă aliniere."
+      "title": "Creează claritate",
+      "text": "Transformăm ambiguitatea în direcție și înțelegere comună."
     },
     "ownership": {
-      "title": "Asumă Responsabilitatea",
-      "text": "Responsabilitate fără scuze. Rezultatul ne reflectă."
+      "title": "Asumă responsabilitatea",
+      "text": "Asumarea responsabilității susține creșterea, responsabilitatea și rezolvarea practică a problemelor."
     },
     "balance": {
-      "title": "Caută Echilibrul",
-      "text": "Să știi când să accelerezi și când să faci o pauză."
+      "title": "Caută echilibrul",
+      "text": "Echilibrul este o practică între focus, ritm și execuție sustenabilă."
+    }
+  },
+  "KPIs": {
+    "eyebrow": "KPI",
+    "title": "Rezultate măsurabile, nu doar activitate",
+    "subtitle": "Urmărim calitatea livrării prin indicatori operaționali relevanți pentru leadership și echipele de execuție.",
+    "items": {
+      "one": {
+        "value": "95%",
+        "label": "Livrare la timp",
+        "text": "Milestone-uri livrate la timp pe fluxuri enterprise planificate."
+      },
+      "two": {
+        "value": "40%",
+        "label": "Operațiuni mai rapide",
+        "text": "Îmbunătățire medie a vitezei de execuție după implementarea platformei interne."
+      },
+      "three": {
+        "value": "99.9%",
+        "label": "Fiabilitate serviciu",
+        "text": "Stabilitate în producție pe procese de business cu volum ridicat."
+      },
+      "four": {
+        "value": "3x",
+        "label": "Productivitate echipă",
+        "text": "Output mai mare per echipă prin automatizare și fluxuri mai curate."
+      }
+    }
+  },
+  "HowItWorks": {
+    "eyebrow": "Cum lucrăm",
+    "title": "Proces nearshore structurat end-to-end",
+    "subtitle": "Un ritm practic de livrare pentru reducerea incertitudinii, aliniere ridicată și evoluție pe termen lung.",
+    "steps": {
+      "understand": {
+        "title": "Înțelegem",
+        "text": "Mapăm contextul operațional, constrângerile și rezultatele de business înainte de cod.",
+        "outcome": "Rezultat: direcție comună înainte de implementare.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Constrângeri",
+          "three": "Obiective business"
+        }
+      },
+      "align": {
+        "title": "Aliniem",
+        "text": "Aliniem arhitectura, scope-ul și ritmul de livrare cu echipele și stakeholderii.",
+        "outcome": "Rezultat: mai puține surprize târzii și aliniere mai bună.",
+        "badges": {
+          "one": "Arhitectură",
+          "two": "Scope",
+          "three": "Cadență"
+        }
+      },
+      "build": {
+        "title": "Construim",
+        "text": "Livrăm incremental, integrând ecosistemul vostru și validând calitatea continuu.",
+        "outcome": "Rezultat: progres constant cu puncte clare de control.",
+        "badges": {
+          "one": "Iterații",
+          "two": "Integrări",
+          "three": "Calitate"
+        }
+      },
+      "evolve": {
+        "title": "Evoluăm",
+        "text": "Optimizăm în timp pentru fiabilitate, throughput și mentenabilitate.",
+        "outcome": "Rezultat: reziliență pe termen lung și performanță mai bună.",
+        "badges": {
+          "one": "Fiabilitate",
+          "two": "Throughput",
+          "three": "Mentenabilitate"
+        }
+      }
+    }
+  },
+  "WhatWeBuild": {
+    "eyebrow": "Ce construim",
+    "title": "Software enterprise construit pe constrângerile reale ale businessului",
+    "subtitle": "Primiți sisteme proiectate pentru modelul vostru de guvernanță, fluxurile voastre și ritmul vostru de schimbare.",
+    "audience": {
+      "cio": "Pentru CIO",
+      "operations": "Pentru operațiuni",
+      "product": "Pentru product teams"
+    },
+    "bullets": {
+      "custom": {
+        "title": "Software enterprise personalizat",
+        "text": "Sisteme construite pentru modelul vostru de business, guvernanță și planuri de creștere."
+      },
+      "internal": {
+        "title": "Instrumente interne pentru operațiuni",
+        "text": "Platforme operaționale care reduc fricțiunea între departamente și cresc calitatea execuției."
+      },
+      "integrations": {
+        "title": "Integrări de platforme",
+        "text": "Integrare fluidă cu ecosisteme precum SharePoint, Salesforce, SAP și alte tool-uri."
+      },
+      "volume": {
+        "title": "Gestionare fluxuri cu volum mare",
+        "text": "Arhitecturi optimizate pentru throughput, fiabilitate și consistența proceselor."
+      }
+    },
+    "tech": {
+      "eyebrow": "Peisaj tehnologic",
+      "title": "Platforme și tool-uri cu care integrăm"
+    },
+    "nodes": {
+      "sharepoint": "SharePoint",
+      "salesforce": "Salesforce",
+      "integrationHub": "Hub de integrare",
+      "sap": "SAP",
+      "apiGateway": "API Gateway",
+      "workflowEngine": "Workflow Engine",
+      "internalTools": "Tool-uri interne"
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Testimoniale",
+    "title": "Echipe care gestionează operațiuni complexe au încredere în noi",
+    "verifiedClient": "Client verificat",
+    "showMore": "Vezi mai mult"
+  },
+  "FinalCta": {
+    "eyebrow": "Construit în jurul obiectivelor tale",
+    "title": "Gata să ai impact? Hai să ne întâlnim.",
+    "subtitle1": "Programează o întâlnire și descoperă cum putem construi ceva valoros împreună.",
+    "subtitle2": "Ne aliniem pe obiective, constrângeri și cel mai bun traseu de la idee la livrare.",
+    "primaryCta": "Începe o conversație",
+    "primaryAria": "Începe o conversație"
+  },
+  "Footer": {
+    "tagline": "Claritate. Asumare. Echilibru.",
+    "description": "Concepem software enterprise și integrări pentru echipe care au nevoie de execuție calmă și rezultate măsurabile.",
+    "navigation": "Navigare",
+    "legal": "Legal",
+    "social": "Social",
+    "copyright": "(c) {year} dotWhite. Toate drepturile rezervate.",
+    "company": "DOT WHITE SRL - VAT RO 33705350",
+    "legalLinks": {
+      "copyright": "Copyright",
+      "privacy": "Confidențialitate",
+      "disclaimer": "Disclaimer",
+      "cookies": "Cookie-uri",
+      "imprint": "Imprint"
+    },
+    "socialLabels": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "email": "Email"
     }
   }
 }

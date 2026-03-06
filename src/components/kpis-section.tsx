@@ -3,14 +3,37 @@
 
 import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
 import { BarChart3 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-import { kpis } from "@/content/kpis";
 import { FocusDot } from "@/components/focus-dot";
 import { SectionHeading } from "@/components/section-heading";
 import { SectionShell } from "@/components/section-shell";
 
 export function KpisSection() {
   const prefersReducedMotion = useReducedMotion();
+  const t = useTranslations("KPIs");
+  const kpis = [
+    {
+      value: t("items.one.value"),
+      label: t("items.one.label"),
+      text: t("items.one.text"),
+    },
+    {
+      value: t("items.two.value"),
+      label: t("items.two.label"),
+      text: t("items.two.text"),
+    },
+    {
+      value: t("items.three.value"),
+      label: t("items.three.label"),
+      text: t("items.three.text"),
+    },
+    {
+      value: t("items.four.value"),
+      label: t("items.four.label"),
+      text: t("items.four.text"),
+    },
+  ];
   const [focusedIndex, setFocusedIndex] = useState(0);
 
   useEffect(() => {
@@ -40,9 +63,9 @@ export function KpisSection() {
 
       <SectionHeading
         prefersReducedMotion={!!prefersReducedMotion}
-        eyebrow="KPIs"
-        title="Measurable Outcomes, Not Just Activity"
-        subtitle="We track delivery quality through operational signals that matter to leadership and execution teams."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        subtitle={t("subtitle")}
         headingId="kpis-heading"
         containerClassName="mx-auto mb-10 max-w-3xl text-center sm:mb-14"
         titleClassName="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl"

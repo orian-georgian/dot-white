@@ -29,19 +29,43 @@
     "cards": {
       "origin": {
         "title": "From Dot to Direction",
-        "text": "A dot is the beginning. It marks a position, then a path. Our work starts the same way: one clear decision at a time."
+        "text": "A dot is the beginning. It marks a position, then a path. Our work starts the same way: one clear decision at a time.",
+        "details": "We map context, constraints, and business intent before writing a single implementation ticket.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Roadmap",
+          "three": "Decision Logs"
+        }
       },
       "enterprise": {
         "title": "Built for Real Complexity",
-        "text": "We build custom enterprise software and internal tools that handle evolving workflows, data volume, and integrations."
+        "text": "We build custom enterprise software and internal tools that handle evolving workflows, data volume, and integrations.",
+        "details": "Architecture stays modular and traceable, so teams can evolve safely without costly rewrites.",
+        "badges": {
+          "one": "Scalable",
+          "two": "Integrations",
+          "three": "Governance"
+        }
       },
       "feeling": {
         "title": "Calm by Design",
-        "text": "Our products should feel intentional and steady: minimal, precise, and never loud."
+        "text": "Our products should feel intentional and steady: minimal, precise, and never loud.",
+        "details": "Interaction quality is treated as a product requirement, not a final visual polish pass.",
+        "badges": {
+          "one": "UX Flow",
+          "two": "Predictable",
+          "three": "Quiet UI"
+        }
       },
       "client": {
         "title": "How It Should Feel",
-        "text": "Working with dotWhite should feel guided and reliable, with complexity handled quietly in the background."
+        "text": "Working with dotWhite should feel guided and reliable, with complexity handled quietly in the background.",
+        "details": "Delivery is transparent and calm, with checkpoints, ownership, and measurable progress.",
+        "badges": {
+          "one": "Partnership",
+          "two": "Visibility",
+          "three": "Reliability"
+        }
       }
     },
     "enterprise": "We build custom enterprise software and internal tools for high-volume workflows, integrating with platforms like SharePoint, Salesforce, and SAP.",
@@ -50,18 +74,170 @@
   "CoreValues": {
     "pretitle": "Our Core Values",
     "title": "Principles Behind Every Delivery",
-    "subtitle": "Our values do not describe a state of utopian stillness, they accurately describe the challenges and difficulties we strive to overcome on a daily basis in order to be able to provide high quality services and maintain a healthy work-life balance.",
+    "subtitle": "Our values describe the challenges we overcome daily to deliver high quality services and maintain a healthy work-life balance.",
     "clarity": {
       "title": "Create Clarity",
-      "text": "It’s easy to get lost and lose focus. We need a single point of reference. We need a mental map to guide ourselves through the maze of complex requirements. We need to strive to create clarity."
+      "text": "We turn ambiguity into direction and shared understanding."
     },
     "ownership": {
       "title": "Take Ownership",
-      "text": "Ownership empowers people to constant growth and nurtures problem solving. It’s something that we willingly and happily take upon ourselves for our common goals."
+      "text": "Ownership drives growth, accountability, and practical problem solving."
     },
     "balance": {
       "title": "Seek Balance",
-      "text": "True balance isn’t a fixed state; it’s a rhythm. It lives in motion, in the way we adapt, adjust, and find harmony between focus and flow. Balance isn’t something to chase, but something to practice."
+      "text": "Balance is a practice between focus, pace, and sustainable execution."
+    }
+  },
+  "KPIs": {
+    "eyebrow": "KPIs",
+    "title": "Measurable Outcomes, Not Just Activity",
+    "subtitle": "We track delivery quality through operational signals that matter to leadership and execution teams.",
+    "items": {
+      "one": {
+        "value": "95%",
+        "label": "On-time Delivery",
+        "text": "Milestones delivered on schedule across scoped enterprise workstreams."
+      },
+      "two": {
+        "value": "40%",
+        "label": "Faster Operations",
+        "text": "Average execution speed improvement after internal platform rollout."
+      },
+      "three": {
+        "value": "99.9%",
+        "label": "Service Reliability",
+        "text": "Production stability maintained across high-volume business processes."
+      },
+      "four": {
+        "value": "3x",
+        "label": "Team Throughput",
+        "text": "Higher output per team enabled by automation and cleaner workflows."
+      }
+    }
+  },
+  "HowItWorks": {
+    "eyebrow": "How It Works",
+    "title": "Nearshore Process, Structured End-to-End",
+    "subtitle": "A practical delivery rhythm designed to reduce uncertainty, keep alignment high, and move from discovery to long-term evolution.",
+    "steps": {
+      "understand": {
+        "title": "Understand",
+        "text": "We map your operational context, constraints, and business outcomes before writing code.",
+        "outcome": "Result: shared direction before implementation begins.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Constraints",
+          "three": "Business Goals"
+        }
+      },
+      "align": {
+        "title": "Align",
+        "text": "We align architecture, scope, and delivery cadence with your teams and decision stakeholders.",
+        "outcome": "Result: fewer late surprises and tighter stakeholder alignment.",
+        "badges": {
+          "one": "Architecture",
+          "two": "Scope",
+          "three": "Cadence"
+        }
+      },
+      "build": {
+        "title": "Build",
+        "text": "We deliver in structured increments, integrating with your ecosystem and validating quality continuously.",
+        "outcome": "Result: steady progress with visible quality gates.",
+        "badges": {
+          "one": "Iterations",
+          "two": "Integrations",
+          "three": "Quality"
+        }
+      },
+      "evolve": {
+        "title": "Evolve",
+        "text": "We optimize over time with measurable improvements in reliability, throughput, and maintainability.",
+        "outcome": "Result: long-term resilience and performance gains.",
+        "badges": {
+          "one": "Reliability",
+          "two": "Throughput",
+          "three": "Maintainability"
+        }
+      }
+    }
+  },
+  "WhatWeBuild": {
+    "eyebrow": "What We Build",
+    "title": "Enterprise Software Built Around Your Real Business Constraints",
+    "subtitle": "You get systems designed for your governance model, your workflows, and your pace of change, so your teams can execute with less friction and better predictability.",
+    "audience": {
+      "cio": "For CIOs",
+      "operations": "For Operations",
+      "product": "For Product Teams"
+    },
+    "bullets": {
+      "custom": {
+        "title": "Custom Enterprise Software",
+        "text": "Purpose-built systems designed around your business model, governance, and growth plans."
+      },
+      "internal": {
+        "title": "Internal Tools for Operations",
+        "text": "Operational platforms that reduce friction across departments and improve execution quality."
+      },
+      "integrations": {
+        "title": "Platform Integrations",
+        "text": "Seamless integration with ecosystems like SharePoint, Salesforce, SAP, and adjacent tooling."
+      },
+      "volume": {
+        "title": "High-Volume Workflow Handling",
+        "text": "Architectures engineered for throughput, reliability, and process consistency at scale."
+      }
+    },
+    "tech": {
+      "eyebrow": "Technology Landscape",
+      "title": "Platforms and Tools We Integrate With"
+    },
+    "nodes": {
+      "sharepoint": "SharePoint",
+      "salesforce": "Salesforce",
+      "integrationHub": "Integration Hub",
+      "sap": "SAP",
+      "apiGateway": "API Gateway",
+      "workflowEngine": "Workflow Engine",
+      "internalTools": "Internal Tools"
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Trusted by Teams Running Complex Operations",
+    "verifiedClient": "Verified Client",
+    "showMore": "Show more"
+  },
+  "FinalCta": {
+    "eyebrow": "Built Around Your Goals",
+    "title": "Ready to make an impact? Let's meet.",
+    "subtitle1": "Schedule a meeting and discover how we can build something great together.",
+    "subtitle2": "We'll align on your goals, constraints, and the best path from idea to meaningful delivery.",
+    "primaryCta": "Start a Conversation",
+    "primaryAria": "Start a Conversation"
+  },
+  "Footer": {
+    "tagline": "Clarity. Ownership. Balance.",
+    "description": "We design dependable enterprise software and integrations for teams that need calm execution and measurable outcomes.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "social": "Social",
+    "copyright": "(c) {year} dotWhite. All rights reserved.",
+    "company": "DOT WHITE SRL - VAT RO 33705350",
+    "legalLinks": {
+      "copyright": "Copyright",
+      "privacy": "Privacy",
+      "disclaimer": "Disclaimer",
+      "cookies": "Cookies",
+      "imprint": "Imprint"
+    },
+    "socialLabels": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "email": "Email"
     }
   }
 }

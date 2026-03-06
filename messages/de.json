@@ -1,8 +1,8 @@
 {
   "Navbar": {
     "homeAria": "dotWhite Startseite",
-    "openMenu": "MenÃ¼ Ã¶ffnen",
-    "closeMenu": "MenÃ¼ schlieÃŸen",
+    "openMenu": "Menu oeffnen",
+    "closeMenu": "Menu schliessen",
     "switchToLight": "Zum hellen Modus wechseln",
     "switchToDark": "Zum dunklen Modus wechseln",
     "languageSwitcherAria": "Sprachauswahl",
@@ -17,51 +17,227 @@
     }
   },
   "Hero": {
-    "headline": "Technologische Meisterschaft geprÃ¤gt von europÃ¤ischer Expertise und Nearshore-NÃ¤he.",
-    "subheadline": "Individuelle Enterprise-Software, entwickelt mit Klarheit, Verantwortung und Balance, um komplexe AblÃ¤ufe und nachhaltiges Wachstum zu unterstÃ¼tzen.",
-    "primaryCta": "GesprÃ¤ch starten",
+    "headline": "Technologiekompetenz gepraegt durch europaeische Expertise und Nearshore Naehe.",
+    "subheadline": "Individuelle Enterprise Software mit Klarheit, Verantwortung und Balance fuer komplexe Prozesse und nachhaltiges Wachstum.",
+    "primaryCta": "Gespraech starten",
     "secondaryCta": "Unsere Geschichte entdecken"
   },
   "Story": {
     "eyebrow": "Die Geschichte hinter dotWhite",
     "title": "Der Punkt. Die Pause. Das Potenzial.",
-    "intro": "dotWhite beginnt mit einer einfachen Idee: Jedes komplexe System kann klar werden, wenn die richtigen Menschen zur richtigen Zeit die richtigen Fragen stellen.",
+    "intro": "dotWhite beginnt mit einer einfachen Idee: Komplexe Systeme werden klar, wenn die richtigen Menschen zur richtigen Zeit die richtigen Fragen stellen.",
     "cards": {
       "origin": {
         "title": "Vom Punkt zur Richtung",
-        "text": "Ein Punkt ist der Anfang. Er markiert eine Position, dann einen Weg. So arbeiten wir auch: eine klare Entscheidung nach der anderen."
+        "text": "Ein Punkt ist der Anfang. Er markiert eine Position, dann einen Weg. So arbeiten wir auch: klare Entscheidungen Schritt fuer Schritt.",
+        "details": "Wir erfassen Kontext, Restriktionen und Business Intention, bevor wir das erste Umsetzungsticket schreiben.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Roadmap",
+          "three": "Entscheidungen"
+        }
       },
       "enterprise": {
-        "title": "FÃ¼r echte KomplexitÃ¤t gebaut",
-        "text": "Wir entwickeln individuelle Enterprise-Software und interne Tools fÃ¼r wachsende Workflows, hohe Datenmengen und Integrationen."
+        "title": "Fuer echte Komplexitaet gebaut",
+        "text": "Wir entwickeln individuelle Enterprise Software und interne Tools fuer wachsende Workflows, hohe Datenmengen und Integrationen.",
+        "details": "Die Architektur bleibt modular und nachvollziehbar, damit Teams sicher weiterentwickeln koennen.",
+        "badges": {
+          "one": "Skalierbar",
+          "two": "Integrationen",
+          "three": "Governance"
+        }
       },
       "feeling": {
         "title": "Ruhe im Design",
-        "text": "Unsere Produkte sollen bewusst und verlÃ¤sslich wirken: minimal, prÃ¤zise und niemals laut."
+        "text": "Unsere Produkte sollen bewusst und verlaesslich wirken: minimal, praezise und niemals laut.",
+        "details": "Interaktionsqualitaet behandeln wir als Produktanforderung, nicht nur als finalen visuellen Schritt.",
+        "badges": {
+          "one": "UX Flow",
+          "two": "Vorhersehbar",
+          "three": "Ruhige UI"
+        }
       },
       "client": {
-        "title": "So sollte es sich anfÃ¼hlen",
-        "text": "Die Zusammenarbeit mit dotWhite soll gefÃ¼hrt und verlÃ¤sslich wirken, wÃ¤hrend KomplexitÃ¤t leise im Hintergrund bleibt."
+        "title": "So sollte es sich anfuehlen",
+        "text": "Die Zusammenarbeit mit dotWhite soll strukturiert und verlaesslich sein, waehrend Komplexitaet im Hintergrund bleibt.",
+        "details": "Die Lieferung ist transparent und ruhig, mit Checkpoints, Ownership und messbarem Fortschritt.",
+        "badges": {
+          "one": "Partnerschaft",
+          "two": "Transparenz",
+          "three": "Zuverlaessigkeit"
+        }
       }
     },
-    "enterprise": "Wir entwickeln individuelle Enterprise-Software und interne Tools fÃ¼r hochvolumige Workflows, integriert mit Plattformen wie SharePoint, Salesforce und SAP.",
-    "outro": "Die Zusammenarbeit mit dotWhite soll ruhig, verlÃ¤sslich und bewusst wirken, wÃ¤hrend KomplexitÃ¤t leise im Hintergrund gesteuert wird."
+    "enterprise": "Wir entwickeln individuelle Enterprise Software und interne Tools fuer hochvolumige Workflows, integriert mit Plattformen wie SharePoint, Salesforce und SAP.",
+    "outro": "Die Zusammenarbeit mit dotWhite soll ruhig, verlaesslich und bewusst sein, waehrend Komplexitaet leise im Hintergrund gesteuert wird."
   },
   "CoreValues": {
     "pretitle": "Unsere Kernwerte",
     "title": "Prinzipien hinter jeder Lieferung",
-    "subtitle": "Unsere Werte beschreiben keinen Zustand utopischer Stille, sondern sehr konkret die Herausforderungen und Schwierigkeiten, die wir tÃ¤glich Ã¼berwinden, um hochwertige Leistungen zu liefern und eine gesunde Work-Life-Balance zu bewahren.",
+    "subtitle": "Unsere Werte beschreiben die taeglichen Herausforderungen, die wir ueberwinden, um hohe Qualitaet zu liefern und eine gesunde Work-Life-Balance zu bewahren.",
     "clarity": {
       "title": "Klarheit schaffen",
-      "text": "Wir Ã¼bersetzen Mehrdeutigkeit in VerstÃ¤ndnis. Klarheit ist Ausrichtung."
+      "text": "Wir verwandeln Mehrdeutigkeit in Richtung und gemeinsames Verstaendnis."
     },
     "ownership": {
-      "title": "Verantwortung Ã¼bernehmen",
-      "text": "Verantwortung ohne Ausreden. Das Ergebnis spiegelt uns wider."
+      "title": "Verantwortung uebernehmen",
+      "text": "Verantwortung foerdert Wachstum, Verbindlichkeit und praktische Problemloesung."
     },
     "balance": {
       "title": "Balance suchen",
-      "text": "Zu wissen, wann man vorantreibt und wann man pausiert."
+      "text": "Balance ist eine taegliche Praxis zwischen Fokus, Tempo und nachhaltiger Ausfuehrung."
+    }
+  },
+  "KPIs": {
+    "eyebrow": "KPIs",
+    "title": "Messbare Ergebnisse statt nur Aktivitaet",
+    "subtitle": "Wir verfolgen Lieferqualitaet ueber operative Signale, die fuer Management und Ausfuehrung relevant sind.",
+    "items": {
+      "one": {
+        "value": "95%",
+        "label": "Puenktliche Lieferung",
+        "text": "Meilensteine termingerecht ueber definierte Enterprise Workstreams."
+      },
+      "two": {
+        "value": "40%",
+        "label": "Schnellere Ablaufe",
+        "text": "Durchschnittliche Beschleunigung nach Einfuehrung interner Plattformen."
+      },
+      "three": {
+        "value": "99.9%",
+        "label": "Service Zuverlaessigkeit",
+        "text": "Produktionsstabilitaet bei hochvolumigen Geschaeftsprozessen."
+      },
+      "four": {
+        "value": "3x",
+        "label": "Team Durchsatz",
+        "text": "Hoeherer Output pro Team durch Automatisierung und saubere Workflows."
+      }
+    }
+  },
+  "HowItWorks": {
+    "eyebrow": "So arbeiten wir",
+    "title": "Nearshore Prozess strukturiert End to End",
+    "subtitle": "Ein praktischer Lieferrhythmus zur Reduktion von Unsicherheit und fuer langfristige Entwicklung.",
+    "steps": {
+      "understand": {
+        "title": "Verstehen",
+        "text": "Wir erfassen operativen Kontext, Restriktionen und Business Ziele vor dem Coding.",
+        "outcome": "Ergebnis: gemeinsame Richtung vor der Umsetzung.",
+        "badges": {
+          "one": "Discovery",
+          "two": "Restriktionen",
+          "three": "Business Ziele"
+        }
+      },
+      "align": {
+        "title": "Ausrichten",
+        "text": "Wir richten Architektur, Scope und Lieferrhythmus mit Teams und Stakeholdern aus.",
+        "outcome": "Ergebnis: weniger spaete Ueberraschungen und bessere Abstimmung.",
+        "badges": {
+          "one": "Architektur",
+          "two": "Scope",
+          "three": "Kadenz"
+        }
+      },
+      "build": {
+        "title": "Bauen",
+        "text": "Wir liefern in strukturierten Inkrementen, integrieren euer Oekosystem und sichern laufend Qualitaet.",
+        "outcome": "Ergebnis: stetiger Fortschritt mit sichtbaren Qualitaetskontrollen.",
+        "badges": {
+          "one": "Iterationen",
+          "two": "Integrationen",
+          "three": "Qualitaet"
+        }
+      },
+      "evolve": {
+        "title": "Weiterentwickeln",
+        "text": "Wir optimieren kontinuierlich fuer Zuverlaessigkeit, Durchsatz und Wartbarkeit.",
+        "outcome": "Ergebnis: langfristige Resilienz und bessere Performance.",
+        "badges": {
+          "one": "Zuverlaessigkeit",
+          "two": "Durchsatz",
+          "three": "Wartbarkeit"
+        }
+      }
+    }
+  },
+  "WhatWeBuild": {
+    "eyebrow": "Was wir bauen",
+    "title": "Enterprise Software rund um eure realen Geschaeftsbedingungen",
+    "subtitle": "Ihr erhaltet Systeme passend zu eurem Governance Modell, euren Workflows und eurem Veraenderungstempo.",
+    "audience": {
+      "cio": "Fuer CIOs",
+      "operations": "Fuer Operations",
+      "product": "Fuer Product Teams"
+    },
+    "bullets": {
+      "custom": {
+        "title": "Individuelle Enterprise Software",
+        "text": "Massgeschneiderte Systeme fuer euer Geschaeftsmodell, eure Governance und eure Wachstumsplaene."
+      },
+      "internal": {
+        "title": "Interne Tools fuer Operations",
+        "text": "Plattformen, die Reibung zwischen Teams reduzieren und Ausfuehrungsqualitaet verbessern."
+      },
+      "integrations": {
+        "title": "Plattform Integrationen",
+        "text": "Nahtlose Integration mit Oekosystemen wie SharePoint, Salesforce, SAP und weiteren Tools."
+      },
+      "volume": {
+        "title": "High Volume Workflow Handling",
+        "text": "Architekturen fuer Durchsatz, Zuverlaessigkeit und Prozesskonsistenz im grossen Massstab."
+      }
+    },
+    "tech": {
+      "eyebrow": "Technologie Landschaft",
+      "title": "Plattformen und Tools, die wir integrieren"
+    },
+    "nodes": {
+      "sharepoint": "SharePoint",
+      "salesforce": "Salesforce",
+      "integrationHub": "Integration Hub",
+      "sap": "SAP",
+      "apiGateway": "API Gateway",
+      "workflowEngine": "Workflow Engine",
+      "internalTools": "Interne Tools"
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Referenzen",
+    "title": "Vertrauen von Teams mit komplexen operativen Anforderungen",
+    "verifiedClient": "Verifizierter Kunde",
+    "showMore": "Mehr anzeigen"
+  },
+  "FinalCta": {
+    "eyebrow": "An euren Zielen ausgerichtet",
+    "title": "Bereit fuer Wirkung? Lasst uns sprechen.",
+    "subtitle1": "Vereinbart ein Gespraech und entdeckt, was wir gemeinsam bauen koennen.",
+    "subtitle2": "Wir stimmen Ziele, Restriktionen und den besten Weg von der Idee zur Lieferung ab.",
+    "primaryCta": "Gespraech starten",
+    "primaryAria": "Gespraech starten"
+  },
+  "Footer": {
+    "tagline": "Klarheit. Verantwortung. Balance.",
+    "description": "Wir entwickeln verlaessliche Enterprise Software und Integrationen fuer Teams mit Bedarf an ruhiger Ausfuehrung und messbaren Ergebnissen.",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "social": "Social",
+    "copyright": "(c) {year} dotWhite. Alle Rechte vorbehalten.",
+    "company": "DOT WHITE SRL - VAT RO 33705350",
+    "legalLinks": {
+      "copyright": "Copyright",
+      "privacy": "Datenschutz",
+      "disclaimer": "Disclaimer",
+      "cookies": "Cookies",
+      "imprint": "Impressum"
+    },
+    "socialLabels": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "email": "E-Mail"
     }
   }
 }

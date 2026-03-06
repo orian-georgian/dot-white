@@ -209,9 +209,12 @@ export function StorySection() {
       art: "origin" as const,
       title: t("cards.origin.title"),
       text: t("cards.origin.text"),
-      details:
-        "We map context, constraints, and business intent before writing a single implementation ticket.",
-      badges: ["Discovery", "Roadmap", "Decision Logs"],
+      details: t("cards.origin.details"),
+      badges: [
+        t("cards.origin.badges.one"),
+        t("cards.origin.badges.two"),
+        t("cards.origin.badges.three"),
+      ],
       badgeTone: "pink" as const,
       cornerClass: "left-0 top-0 rounded-br-[110px]",
       cornerTone: "bg-pink-brand/10",
@@ -220,9 +223,12 @@ export function StorySection() {
       art: "enterprise" as const,
       title: t("cards.enterprise.title"),
       text: t("cards.enterprise.text"),
-      details:
-        "Architecture stays modular and traceable, so teams can evolve safely without costly rewrites.",
-      badges: ["Scalable", "Integrations", "Governance"],
+      details: t("cards.enterprise.details"),
+      badges: [
+        t("cards.enterprise.badges.one"),
+        t("cards.enterprise.badges.two"),
+        t("cards.enterprise.badges.three"),
+      ],
       badgeTone: "sky" as const,
       cornerClass: "right-0 top-0 rounded-bl-[110px]",
       cornerTone: "bg-sky-400/10",
@@ -231,9 +237,12 @@ export function StorySection() {
       art: "feeling" as const,
       title: t("cards.feeling.title"),
       text: t("cards.feeling.text"),
-      details:
-        "Interaction quality is treated as a product requirement, not a final visual polish pass.",
-      badges: ["UX Flow", "Predictable", "Quiet UI"],
+      details: t("cards.feeling.details"),
+      badges: [
+        t("cards.feeling.badges.one"),
+        t("cards.feeling.badges.two"),
+        t("cards.feeling.badges.three"),
+      ],
       badgeTone: "pink" as const,
       cornerClass: "left-0 bottom-0 rounded-tr-[110px]",
       cornerTone: "bg-pink-brand/10",
@@ -242,9 +251,12 @@ export function StorySection() {
       art: "client" as const,
       title: t("cards.client.title"),
       text: t("cards.client.text"),
-      details:
-        "Delivery is transparent and calm, with checkpoints, ownership, and measurable progress.",
-      badges: ["Partnership", "Visibility", "Reliability"],
+      details: t("cards.client.details"),
+      badges: [
+        t("cards.client.badges.one"),
+        t("cards.client.badges.two"),
+        t("cards.client.badges.three"),
+      ],
       badgeTone: "emerald" as const,
       cornerClass: "right-0 bottom-0 rounded-tl-[110px]",
       cornerTone: "bg-emerald-400/10",

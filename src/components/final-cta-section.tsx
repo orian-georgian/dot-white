@@ -2,12 +2,14 @@
 
 import { useReducedMotion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { AnimatedArrow } from "@/components/animated-arrow";
 import { Button } from "@/components/button";
 import { SectionShell } from "@/components/section-shell";
 
 export function FinalCtaSection() {
   const prefersReducedMotion = useReducedMotion();
+  const t = useTranslations("FinalCta");
 
   return (
     <SectionShell
@@ -23,31 +25,29 @@ export function FinalCtaSection() {
 
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-foreground/55">
-            Built Around Your Goals
+            {t("eyebrow")}
           </p>
           <h2
             id="final-cta-heading"
             className="mt-3 text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl"
           >
-            Ready to make an impact? Let&apos;s meet.
+            {t("title")}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-foreground/75 sm:text-lg">
-            Schedule a meeting and discover how we can build something great
-            together.
+            {t("subtitle1")}
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-foreground/68 sm:text-lg">
-            We&apos;ll align on your goals, constraints, and the best path from
-            idea to meaningful delivery.
+            {t("subtitle2")}
           </p>
 
           <div className="mt-10 flex justify-center">
             <Button
-              aria-label="Start a Conversation"
+              aria-label={t("primaryAria")}
               variant="primary"
               size="md"
               className="relative overflow-hidden"
             >
-              <span className="relative z-10">Start a Conversation</span>
+              <span className="relative z-10">{t("primaryCta")}</span>
               <AnimatedArrow prefersReducedMotion={!!prefersReducedMotion}>
                 &rarr;
               </AnimatedArrow>

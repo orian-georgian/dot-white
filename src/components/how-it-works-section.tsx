@@ -1,8 +1,8 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { Hammer, Check } from "lucide-react";
-import { howItWorksSteps } from "@/content/how-it-works";
+import { Check, Hammer, Handshake, Search, TrendingUp } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { Badge } from "@/components/badge";
 import { ProgressTimeline } from "@/components/progress-timeline";
 import { SectionCard } from "@/components/section-card";
@@ -17,6 +17,57 @@ const endHoldMs = 1500;
 
 export function HowItWorksSection() {
   const prefersReducedMotion = useReducedMotion();
+  const t = useTranslations("HowItWorks");
+  const howItWorksSteps = [
+    {
+      Icon: Search,
+      tone: "pink" as const,
+      title: t("steps.understand.title"),
+      text: t("steps.understand.text"),
+      outcome: t("steps.understand.outcome"),
+      badges: [
+        t("steps.understand.badges.one"),
+        t("steps.understand.badges.two"),
+        t("steps.understand.badges.three"),
+      ],
+    },
+    {
+      Icon: Handshake,
+      tone: "sky" as const,
+      title: t("steps.align.title"),
+      text: t("steps.align.text"),
+      outcome: t("steps.align.outcome"),
+      badges: [
+        t("steps.align.badges.one"),
+        t("steps.align.badges.two"),
+        t("steps.align.badges.three"),
+      ],
+    },
+    {
+      Icon: Hammer,
+      tone: "emerald" as const,
+      title: t("steps.build.title"),
+      text: t("steps.build.text"),
+      outcome: t("steps.build.outcome"),
+      badges: [
+        t("steps.build.badges.one"),
+        t("steps.build.badges.two"),
+        t("steps.build.badges.three"),
+      ],
+    },
+    {
+      Icon: TrendingUp,
+      tone: "pink" as const,
+      title: t("steps.evolve.title"),
+      text: t("steps.evolve.text"),
+      outcome: t("steps.evolve.outcome"),
+      badges: [
+        t("steps.evolve.badges.one"),
+        t("steps.evolve.badges.two"),
+        t("steps.evolve.badges.three"),
+      ],
+    },
+  ];
   const progress = useProgressCycle({
     prefersReducedMotion: !!prefersReducedMotion,
     cycleDurationMs,
@@ -49,9 +100,9 @@ export function HowItWorksSection() {
 
         <SectionHeading
           prefersReducedMotion={!!prefersReducedMotion}
-          eyebrow="How It Works"
-          title="Nearshore Process, Structured End-to-End"
-          subtitle="A practical delivery rhythm designed to reduce uncertainty, keep alignment high, and move from discovery to long-term evolution."
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
           headingId="how-it-works-heading"
           containerClassName="mx-auto mb-10 max-w-3xl text-center sm:mb-14"
           titleClassName="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl"

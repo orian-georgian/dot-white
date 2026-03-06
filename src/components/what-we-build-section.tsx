@@ -4,17 +4,61 @@ import { motion, useReducedMotion } from "framer-motion";
 import {
   Boxes,
   Check,
+  Cloud,
+  Cpu,
+  Database,
+  Network,
+  Workflow,
 } from "lucide-react";
-import {
-  whatWeBuildBulletPoints,
-  whatWeBuildNodePositions,
-} from "@/content/what-we-build";
+import { useTranslations } from "next-intl";
 import { SectionShell } from "@/components/section-shell";
 import { TechsCarousel } from "@/components/techs-carousel";
 
 export function WhatWeBuildSection() {
   const prefersReducedMotion = useReducedMotion();
-  const audienceTags = ["For CIOs", "For Operations", "For Product Teams"];
+  const t = useTranslations("WhatWeBuild");
+  const audienceTags = [
+    t("audience.cio"),
+    t("audience.operations"),
+    t("audience.product"),
+  ];
+  const whatWeBuildBulletPoints = [
+    {
+      title: t("bullets.custom.title"),
+      text: t("bullets.custom.text"),
+    },
+    {
+      title: t("bullets.internal.title"),
+      text: t("bullets.internal.text"),
+    },
+    {
+      title: t("bullets.integrations.title"),
+      text: t("bullets.integrations.text"),
+    },
+    {
+      title: t("bullets.volume.title"),
+      text: t("bullets.volume.text"),
+    },
+  ];
+  const whatWeBuildNodePositions = [
+    { left: "8%", top: "10%", Icon: Boxes, label: t("nodes.sharepoint") },
+    { left: "38%", top: "8%", Icon: Cloud, label: t("nodes.salesforce") },
+    {
+      left: "52%",
+      top: "46%",
+      Icon: Cpu,
+      label: t("nodes.integrationHub"),
+    },
+    { left: "92%", top: "62%", Icon: Database, label: t("nodes.sap") },
+    { left: "88%", top: "16%", Icon: Network, label: t("nodes.apiGateway") },
+    {
+      left: "14%",
+      top: "52%",
+      Icon: Workflow,
+      label: t("nodes.workflowEngine"),
+    },
+    { left: "60%", top: "90%", Icon: Boxes, label: t("nodes.internalTools") },
+  ];
 
   return (
     <SectionShell
@@ -43,7 +87,7 @@ export function WhatWeBuildSection() {
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.45, ease: "easeOut" }}
           >
-            What We Build
+            {t("eyebrow")}
           </motion.p>
 
           <motion.h2
@@ -56,7 +100,7 @@ export function WhatWeBuildSection() {
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            Enterprise Software Built Around Your Real Business Constraints
+            {t("title")}
           </motion.h2>
 
           <motion.p
@@ -68,9 +112,7 @@ export function WhatWeBuildSection() {
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.5, delay: 0.08, ease: "easeOut" }}
           >
-            You get systems designed for your governance model, your workflows,
-            and your pace of change, so your teams can execute with less
-            friction and better predictability.
+            {t("subtitle")}
           </motion.p>
 
           <motion.div
@@ -304,10 +346,10 @@ export function WhatWeBuildSection() {
       <div className="relative mx-auto mt-14 max-w-7xl">
         <div className="mb-5 text-left">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/55">
-            Technology Landscape
+            {t("tech.eyebrow")}
           </p>
           <h3 className="mt-2 text-balance text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
-            Platforms and Tools We Integrate With
+            {t("tech.title")}
           </h3>
         </div>
         <TechsCarousel />
