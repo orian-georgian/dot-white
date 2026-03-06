@@ -1,0 +1,18 @@
+
+> dotwhite-futuristic@0.1.0 dev
+> next dev --turbopack -p 9000
+
+   ▲ Next.js 15.5.12 (Turbopack)
+   - Local:        http://localhost:9000
+   - Network:      http://10.5.0.2:9000
+   - Environments: .env.local
+
+ ✓ Starting...
+Creating turbopack project {
+  dir: 'C:\\Work Stuff\\DotWhite\\dotwhite-futuristic',
+  testMode: true
+}
+ ✓ Compiled middleware in 384ms
+ ✓ Ready in 3.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s

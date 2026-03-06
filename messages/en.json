@@ -1,0 +1,67 @@
+{
+  "Navbar": {
+    "homeAria": "dotWhite home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "languageSwitcherAria": "Language switcher",
+    "languageSwitcherMobileAria": "Language switcher mobile",
+    "switchLanguageAria": "Switch language to {locale}",
+    "links": {
+      "story": "Story",
+      "services": "Services",
+      "process": "Process",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    }
+  },
+  "Hero": {
+    "headline": "Technology mastery shaped by European expertise and nearshore proximity.",
+    "subheadline": "Custom enterprise software designed with clarity, ownership, and balance, built to support complex operations and long-term growth.",
+    "primaryCta": "Start a Conversation",
+    "secondaryCta": "Discover Our Story"
+  },
+  "Story": {
+    "eyebrow": "The Story Behind dotWhite",
+    "title": "The dot. The pause. The potential.",
+    "intro": "dotWhite starts with a simple idea: every complex system can become clear when the right people ask the right questions at the right time.",
+    "cards": {
+      "origin": {
+        "title": "From Dot to Direction",
+        "text": "A dot is the beginning. It marks a position, then a path. Our work starts the same way: one clear decision at a time."
+      },
+      "enterprise": {
+        "title": "Built for Real Complexity",
+        "text": "We build custom enterprise software and internal tools that handle evolving workflows, data volume, and integrations."
+      },
+      "feeling": {
+        "title": "Calm by Design",
+        "text": "Our products should feel intentional and steady: minimal, precise, and never loud."
+      },
+      "client": {
+        "title": "How It Should Feel",
+        "text": "Working with dotWhite should feel guided and reliable, with complexity handled quietly in the background."
+      }
+    },
+    "enterprise": "We build custom enterprise software and internal tools for high-volume workflows, integrating with platforms like SharePoint, Salesforce, and SAP.",
+    "outro": "Working with dotWhite should feel calm, steady, and intentional, with complexity handled quietly in the background."
+  },
+  "CoreValues": {
+    "pretitle": "Our Core Values",
+    "title": "Principles Behind Every Delivery",
+    "subtitle": "Our values do not describe a state of utopian stillness, they accurately describe the challenges and difficulties we strive to overcome on a daily basis in order to be able to provide high quality services and maintain a healthy work-life balance.",
+    "clarity": {
+      "title": "Create Clarity",
+      "text": "It’s easy to get lost and lose focus. We need a single point of reference. We need a mental map to guide ourselves through the maze of complex requirements. We need to strive to create clarity."
+    },
+    "ownership": {
+      "title": "Take Ownership",
+      "text": "Ownership empowers people to constant growth and nurtures problem solving. It’s something that we willingly and happily take upon ourselves for our common goals."
+    },
+    "balance": {
+      "title": "Seek Balance",
+      "text": "True balance isn’t a fixed state; it’s a rhythm. It lives in motion, in the way we adapt, adjust, and find harmony between focus and flow. Balance isn’t something to chase, but something to practice."
+    }
+  }
+}

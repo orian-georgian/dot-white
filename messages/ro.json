@@ -1,0 +1,67 @@
+{
+  "Navbar": {
+    "homeAria": "dotWhite acasă",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "switchToLight": "Comută la modul luminos",
+    "switchToDark": "Comută la modul întunecat",
+    "languageSwitcherAria": "Selector de limbă",
+    "languageSwitcherMobileAria": "Selector de limbă mobil",
+    "switchLanguageAria": "Schimbă limba în {locale}",
+    "links": {
+      "story": "Poveste",
+      "services": "Servicii",
+      "process": "Proces",
+      "testimonials": "Testimoniale",
+      "contact": "Contact"
+    }
+  },
+  "Hero": {
+    "headline": "Măiestria tehnologică modelată de expertiza europeană și proximitatea nearshore.",
+    "subheadline": "Software enterprise personalizat, conceput cu claritate, asumare și echilibru, pentru a susține procese complexe și creștere pe termen lung.",
+    "primaryCta": "Începe o conversație",
+    "secondaryCta": "Descoperă povestea noastră"
+  },
+  "Story": {
+    "eyebrow": "Povestea din spatele dotWhite",
+    "title": "Punctul. Pauza. Potențialul.",
+    "intro": "dotWhite pornește de la o idee simplă: orice sistem complex poate deveni clar atunci când oamenii potriviți pun întrebările potrivite la momentul potrivit.",
+    "cards": {
+      "origin": {
+        "title": "De la punct la direcție",
+        "text": "Un punct este începutul. Marchează o poziție, apoi un traseu. Așa lucrăm și noi: câte o decizie clară, pe rând."
+      },
+      "enterprise": {
+        "title": "Construit pentru complexitate reală",
+        "text": "Construim software enterprise personalizat și instrumente interne care gestionează fluxuri în evoluție, volume mari de date și integrări."
+      },
+      "feeling": {
+        "title": "Calm prin design",
+        "text": "Produsele noastre trebuie să se simtă intenționate și stabile: minimale, precise și niciodată zgomotoase."
+      },
+      "client": {
+        "title": "Cum ar trebui să se simtă",
+        "text": "Colaborarea cu dotWhite trebuie să fie ghidată și de încredere, cu complexitatea gestionată discret în fundal."
+      }
+    },
+    "enterprise": "Construim software enterprise personalizat și instrumente interne pentru fluxuri cu volum mare, integrate cu platforme precum SharePoint, Salesforce și SAP.",
+    "outro": "Colaborarea cu dotWhite trebuie să se simtă calmă, stabilă și intenționată, cu complexitatea gestionată discret în fundal."
+  },
+  "CoreValues": {
+    "pretitle": "Valorile noastre de bază",
+    "title": "Principiile din spatele fiecărei livrări",
+    "subtitle": "Valorile noastre nu descriu o stare de liniște utopică, ci descriu fidel provocările și dificultățile pe care ne străduim să le depășim zilnic pentru a oferi servicii de înaltă calitate și pentru a menține un echilibru sănătos între viața profesională și cea personală.",
+    "clarity": {
+      "title": "Creează Claritate",
+      "text": "Transformăm ambiguitatea în înțelegere. Claritatea înseamnă aliniere."
+    },
+    "ownership": {
+      "title": "Asumă Responsabilitatea",
+      "text": "Responsabilitate fără scuze. Rezultatul ne reflectă."
+    },
+    "balance": {
+      "title": "Caută Echilibrul",
+      "text": "Să știi când să accelerezi și când să faci o pauză."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Navbar": {
+    "homeAria": "dotWhite Startseite",
+    "openMenu": "MenÃ¼ Ã¶ffnen",
+    "closeMenu": "MenÃ¼ schlieÃŸen",
+    "switchToLight": "Zum hellen Modus wechseln",
+    "switchToDark": "Zum dunklen Modus wechseln",
+    "languageSwitcherAria": "Sprachauswahl",
+    "languageSwitcherMobileAria": "Mobile Sprachauswahl",
+    "switchLanguageAria": "Sprache zu {locale} wechseln",
+    "links": {
+      "story": "Story",
+      "services": "Leistungen",
+      "process": "Prozess",
+      "testimonials": "Referenzen",
+      "contact": "Kontakt"
+    }
+  },
+  "Hero": {
+    "headline": "Technologische Meisterschaft geprÃ¤gt von europÃ¤ischer Expertise und Nearshore-NÃ¤he.",
+    "subheadline": "Individuelle Enterprise-Software, entwickelt mit Klarheit, Verantwortung und Balance, um komplexe AblÃ¤ufe und nachhaltiges Wachstum zu unterstÃ¼tzen.",
+    "primaryCta": "GesprÃ¤ch starten",
+    "secondaryCta": "Unsere Geschichte entdecken"
+  },
+  "Story": {
+    "eyebrow": "Die Geschichte hinter dotWhite",
+    "title": "Der Punkt. Die Pause. Das Potenzial.",
+    "intro": "dotWhite beginnt mit einer einfachen Idee: Jedes komplexe System kann klar werden, wenn die richtigen Menschen zur richtigen Zeit die richtigen Fragen stellen.",
+    "cards": {
+      "origin": {
+        "title": "Vom Punkt zur Richtung",
+        "text": "Ein Punkt ist der Anfang. Er markiert eine Position, dann einen Weg. So arbeiten wir auch: eine klare Entscheidung nach der anderen."
+      },
+      "enterprise": {
+        "title": "FÃ¼r echte KomplexitÃ¤t gebaut",
+        "text": "Wir entwickeln individuelle Enterprise-Software und interne Tools fÃ¼r wachsende Workflows, hohe Datenmengen und Integrationen."
+      },
+      "feeling": {
+        "title": "Ruhe im Design",
+        "text": "Unsere Produkte sollen bewusst und verlÃ¤sslich wirken: minimal, prÃ¤zise und niemals laut."
+      },
+      "client": {
+        "title": "So sollte es sich anfÃ¼hlen",
+        "text": "Die Zusammenarbeit mit dotWhite soll gefÃ¼hrt und verlÃ¤sslich wirken, wÃ¤hrend KomplexitÃ¤t leise im Hintergrund bleibt."
+      }
+    },
+    "enterprise": "Wir entwickeln individuelle Enterprise-Software und interne Tools fÃ¼r hochvolumige Workflows, integriert mit Plattformen wie SharePoint, Salesforce und SAP.",
+    "outro": "Die Zusammenarbeit mit dotWhite soll ruhig, verlÃ¤sslich und bewusst wirken, wÃ¤hrend KomplexitÃ¤t leise im Hintergrund gesteuert wird."
+  },
+  "CoreValues": {
+    "pretitle": "Unsere Kernwerte",
+    "title": "Prinzipien hinter jeder Lieferung",
+    "subtitle": "Unsere Werte beschreiben keinen Zustand utopischer Stille, sondern sehr konkret die Herausforderungen und Schwierigkeiten, die wir tÃ¤glich Ã¼berwinden, um hochwertige Leistungen zu liefern und eine gesunde Work-Life-Balance zu bewahren.",
+    "clarity": {
+      "title": "Klarheit schaffen",
+      "text": "Wir Ã¼bersetzen Mehrdeutigkeit in VerstÃ¤ndnis. Klarheit ist Ausrichtung."
+    },
+    "ownership": {
+      "title": "Verantwortung Ã¼bernehmen",
+      "text": "Verantwortung ohne Ausreden. Das Ergebnis spiegelt uns wider."
+    },
+    "balance": {
+      "title": "Balance suchen",
+      "text": "Zu wissen, wann man vorantreibt und wann man pausiert."
+    }
+  }
+}
