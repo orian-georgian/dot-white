@@ -3,13 +3,16 @@
 import { useReducedMotion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
+
 import { AnimatedArrow } from "@/components/animated-arrow";
 import { Button } from "@/components/button";
 import { SectionShell } from "@/components/section-shell";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 export function FinalCtaSection() {
   const prefersReducedMotion = useReducedMotion();
   const t = useTranslations("FinalCta");
+  const isMobile = useMediaQuery("(max-width: 639px)");
 
   return (
     <SectionShell
@@ -40,12 +43,16 @@ export function FinalCtaSection() {
             {t("subtitle2")}
           </p>
 
-          <div className="mt-10 flex justify-center">
+          <div className={isMobile ? "mt-10 flex justify-center w-full" : "mt-10 flex justify-center"}>
             <Button
               aria-label={t("primaryAria")}
               variant="primary"
               size="md"
-              className="relative overflow-hidden"
+              className={
+                isMobile
+                  ? "relative overflow-hidden w-full max-w-xs text-base font-semibold py-3 rounded-lg"
+                  : "relative overflow-hidden"
+              }
             >
               <span className="relative z-10">{t("primaryCta")}</span>
               <AnimatedArrow prefersReducedMotion={!!prefersReducedMotion}>
