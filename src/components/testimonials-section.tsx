@@ -137,7 +137,7 @@ export function TestimonialsSection() {
               </div>
 
               <p className="relative z-10 mt-5 text-base leading-relaxed text-foreground/82">
-                "{item.quote}"
+                &ldquo;{item.quote}&rdquo;
               </p>
               <div className="relative z-10 mt-5 border-t border-foreground/10 pt-4">
                 <span className="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.16em] text-foreground/50 transition-colors duration-200 group-hover:text-pink-brand">

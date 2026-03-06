@@ -47,7 +47,7 @@ export function KpisSection() {
     }, 2000);
 
     return () => window.clearInterval(intervalId);
-  }, [prefersReducedMotion]);
+  }, [prefersReducedMotion, kpis.length]);
 
   return (
     <SectionShell
